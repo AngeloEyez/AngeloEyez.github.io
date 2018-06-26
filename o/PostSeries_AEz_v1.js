@@ -41,16 +41,18 @@ postSeries.showPost = function() {
         b = d[e][1];
         var _0x9e96 = ["search", "<li><a href=\'", "\' target=\'_blank\'>", "</a></li>", "<li>", "&#12288;<a href=\'http://angeloeyez.blogspot.com/2018/06/blogger-series-post-hack-big5.html\' target=\'_blank\' style=\'text-decoration: none;\' title=\'Blogger postSeries系列文\x0ABy：AngeloEyez\'>"];
         if (b[_0x9e96[0]](j) < 0) {
-            if (pointerfound && npb >0) {
+            if (pfd && npb >0) {
                 g += _0x9e96[1] + b + _0x9e96[2] + d[e][0] + _0x9e96[3];
                 npb--;
             }            
         } else {
-            pointerfound = true;
-            if ((npt-e) > 0){npb += npt-e; npt = e;} //前面文章數不夠就用後面的補齊
-            if (c-e <= npb){npt+=npb-(c-e-1); npb = c-e-1;} //後面文章數不夠，用前面補齊
-            for (nn = npt; nn>0; nn--) {
-                g += _0x9e96[1] + d[e-nn][1] + _0x9e96[2] + d[e-nn][0] + _0x9e96[3];
+            pfd = true;
+            if (np < c){
+                if ((npt-e) > 0){npb += npt-e; npt = e;} //前面文章數不夠就用後面的補齊
+                if (c-e <= npb){npt+=npb-(c-e-1); npb = c-e-1;} //後面文章數不夠，用前面補齊
+                for (nn = npt; nn>0; nn--) {
+                    g += _0x9e96[1] + d[e-nn][1] + _0x9e96[2] + d[e-nn][0] + _0x9e96[3];
+                }
             }
             g += _0x9e96[4] + d[e][0] + _0x9e96[5] + a + _0x9e96[3];
         };
