@@ -33,6 +33,7 @@ postSeries.showPost = function() {
     npt = Math.round(np/2)-1; //pointer上方文章數
     npb = (np%2 == 0) ? np/2 : (np-1)/2; //pointer下方文章數
     pointerfound = false; 
+    ee=0;
 
     g += "<ul>";
     for (e = 0; e < c; e++) {
@@ -42,10 +43,10 @@ postSeries.showPost = function() {
             if (pointerfound && npb >0) {
                 g += _0x9e96[1] + b + _0x9e96[2] + d[e][0] + _0x9e96[3];
                 npb--;
-            }
-            
+            }            
         } else {
             pointerfound = true;
+            if ((npt-e) > 0){npb += npt-e; npt = e;}
             for (nn = npt; nn>0; nn--) {
                 g += _0x9e96[1] + d[e-nn][1] + _0x9e96[2] + d[e-nn][0] + _0x9e96[3];
             }
