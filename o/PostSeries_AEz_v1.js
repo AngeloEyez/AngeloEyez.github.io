@@ -46,7 +46,8 @@ postSeries.showPost = function() {
             }            
         } else {
             pointerfound = true;
-            if ((npt-e) > 0){npb += npt-e; npt = e;}
+            if ((npt-e) > 0){npb += npt-e; npt = e;} //前面文章數不夠就用後面的補齊
+            if (c-e <= npb){npt+=npb-(c-e-1); npb = c-e-1;} //後面文章數不夠，用前面補齊
             for (nn = npt; nn>0; nn--) {
                 g += _0x9e96[1] + d[e-nn][1] + _0x9e96[2] + d[e-nn][0] + _0x9e96[3];
             }
