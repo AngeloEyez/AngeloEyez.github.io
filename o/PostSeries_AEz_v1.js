@@ -47,7 +47,7 @@ postSeries.showPost = function() {
         } else {
             pointerfound = true;
             for (nn = npt; nn>0; nn--) {
-                g += _0x9e96[1] + b + _0x9e96[2] + d[e-nn][0] + _0x9e96[3];
+                g += _0x9e96[1] + d[e-nn][1] + _0x9e96[2] + d[e-nn][0] + _0x9e96[3];
             }
             g += _0x9e96[4] + d[e][0] + _0x9e96[5] + a + _0x9e96[3];
         };
