@@ -30,7 +30,7 @@ postSeries.showPost = function() {
     d.sort();
     a = (a.search("http") < 0) ? a : "<img src='" + a + "'/>";
     np = (np <= 3) ? 3 : np; //文章數至少3
-    npt = round(np/2)-1; //pointer上方文章數
+    npt = Math.round(np/2)-1; //pointer上方文章數
     npb = (np%2 == 0) ? np/2 : (np-1)/2; //pointer下方文章數
     pointerfound = false; 
 
