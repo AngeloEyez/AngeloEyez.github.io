@@ -44,7 +44,8 @@ postSeries.showPost = function() {
             if (pfd && npb >0) {
                 g += _0x9e96[1] + b + _0x9e96[2] + d[e][0] + _0x9e96[3];
                 npb--;
-            }            
+            } else if (np>=c)
+                g += _0x9e96[1] + b + _0x9e96[2] + d[e][0] + _0x9e96[3];            
         } else {
             pfd = true;
             if (np < c){ //如果總文章數比numpost少，那就不處理，全部顯示
