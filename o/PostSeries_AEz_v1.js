@@ -33,7 +33,7 @@ postSeries.showPost = function() {
     np = (np <= 3) ? 3 : np; //文章數至少3
     npt = Math.round(np/2)-1; //pointer上方文章數
     npb = (np%2 == 0) ? np/2 : (np-1)/2; //pointer下方文章數
-    pointerfound = false; 
+    pfd = false; 
     ee=0;
 
     g += "<ul>";
@@ -47,7 +47,7 @@ postSeries.showPost = function() {
             }            
         } else {
             pfd = true;
-            if (np < c){
+            if (np < c){ //如果總文章數比numpost少，那就不處理，全部顯示
                 if ((npt-e) > 0){npb += npt-e; npt = e;} //前面文章數不夠就用後面的補齊
                 if (c-e <= npb){npt+=npb-(c-e-1); npb = c-e-1;} //後面文章數不夠，用前面補齊
                 for (nn = npt; nn>0; nn--) {
