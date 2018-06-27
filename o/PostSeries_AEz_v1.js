@@ -35,27 +35,25 @@ postSeries.showPost = function() {
     npb = (np%2 == 0) ? np/2 : (np-1)/2; //pointer下方文章數
     pfd = false; 
     ee=0;
-
     g += "<ul>";
     for (e = 0; e < c; e++) {
         b = d[e][1];
-        var _0x9e96 = ["search", "<li><a href=\'", "\' target=\'_blank\'>", "</a></li>", "<li>", "&#12288;<a href=\'http://angeloeyez.blogspot.com/2018/06/blogger-series-post-hack-big5.html\' target=\'_blank\' style=\'text-decoration: none;\' title=\'Blogger postSeries系列文\x0ABy：AngeloEyez\'>"];
         if (b.search(j) < 0) {
             if (pfd && npb >0) {
-                g += _0x9e96[1] + b + _0x9e96[2] + d[e][0] + _0x9e96[3];
+                g += "<li><a href=\'" + b + "\' target=\'_blank\'>" + d[e][0] + "</a></li>";
                 npb--;
             } else if (np>=c)
-                g += _0x9e96[1] + b + _0x9e96[2] + d[e][0] + _0x9e96[3];            
+                g += "<li><a href=\'" + b + "\' target=\'_blank\'>" + d[e][0] + "</a></li>";            
         } else {
             pfd = true;
             if (np < c){ //如果總文章數比numpost少，那就不處理，全部顯示
                 if ((npt-e) > 0){npb += npt-e; npt = e;} //前面文章數不夠就用後面的補齊
                 if (c-e <= npb){npt+=npb-(c-e-1); npb = c-e-1;} //後面文章數不夠，用前面補齊
                 for (nn = npt; nn>0; nn--) {
-                    g += _0x9e96[1] + d[e-nn][1] + _0x9e96[2] + d[e-nn][0] + _0x9e96[3];
+                    g += "<li><a href=\'" + d[e-nn][1] + "\' target=\'_blank\'>" + d[e-nn][0] + "</a></li>";
                 }
             }
-            g += _0x9e96[4] + d[e][0] + _0x9e96[5] + a + _0x9e96[3];
+            g += "<li>" + d[e][0] + "&#12288;<a href=\'http://angeloeyez.blogspot.com/2018/06/blogger-series-post-hack-big5.html\' target=\'_blank\' style=\'text-decoration: none;\' title=\'Blogger postSeries系列文\x0ABy：AngeloEyez\'>" + a + "</a></li>";
         };
     }
     g += "</ul>";
