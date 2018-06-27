@@ -1,1 +1,180 @@
-postSeries['\x6c\x61\x62\x65\x6c\x53\x65\x74']=[];postSeries['\x74\x69\x74\x6c\x65\x53\x65\x74']=[];postSeries['\x75\x72\x6c\x53\x65\x74']=[];postSeries['\x74\x6f\x74\x61\x6c\x50\x6f\x73\x74']=0;postSeries['\x73\x74\x61\x72\x74\x4e\x6f']=1;window["\x41\x72\x72\x61\x79"]['\x69\x6e\x64\x65\x78\x4f\x66']||(window["\x41\x72\x72\x61\x79"]['\x70\x72\x6f\x74\x6f\x74\x79\x70\x65']['\x69\x6e\x64\x65\x78\x4f\x66']=function(LZREjSNT1){for(var r2=0;r2<this['\x6c\x65\x6e\x67\x74\x68'];r2++)if(this[r2]==LZREjSNT1)return r2;return-1});postSeries['\x73\x68\x6f\x77\x50\x6f\x73\x74']=function(){var YRpO3=jQuery,ZHh4=postSeries['\x75\x72\x6c\x53\x65\x74']['\x6c\x65\x6e\x67\x74\x68'],f=postSeries['\x74\x69\x74\x6c\x65\x53\x65\x74'],a=postSeries['\x75\x72\x6c\x53\x65\x74'],q=location['\x70\x61\x74\x68\x6e\x61\x6d\x65'],l=postSeries['\x70\x6f\x69\x6e\x74\x65\x72'],e=postSeries['\x6e\x75\x6d\x50\x6f\x73\x74'],g="",s5=[],i6;for(i6=0;i6<ZHh4;i6++)s5[i6]=[f[i6],a[i6]];s5['\x73\x6f\x72\x74']();l=0>l['\x73\x65\x61\x72\x63\x68']("\x68\x74\x74\x70")?l:"\x3c\x69\x6d\x67 \x73\x72\x63\x3d\x27"+l+"\x27\x2f\x3e";e=3>=e?3:e;npt=window["\x4d\x61\x74\x68"]['\x72\x6f\x75\x6e\x64'](e/2)-1;npb=0==e%2?e/2:(e-1)/2;pfd=!1;ee=0;g+="\x3c\x75\x6c\x3e";for(i6=0;i6<ZHh4;i6++)if(f=s5[i6][1],a="\x73\x65\x61\x72\x63\x68\x2c\x3c\x6c\x69\x3e\x3c\x61 \x68\x72\x65\x66\x3d\x27\x2c\x27 \x74\x61\x72\x67\x65\x74\x3d\x27\x5f\x62\x6c\x61\x6e\x6b\x27\x3e\x2c\x3c\x2f\x61\x3e\x3c\x2f\x6c\x69\x3e\x2c\x3c\x6c\x69\x3e\x2c\x26\x23\x31\x32\x32\x38\x38\x3b\x3c\x61 \x68\x72\x65\x66\x3d\x27\x68\x74\x74\x70\x3a\x2f\x2f\x61\x6e\x67\x65\x6c\x6f\x65\x79\x65\x7a\x2e\x62\x6c\x6f\x67\x73\x70\x6f\x74\x2e\x63\x6f\x6d\x2f\x32\x30\x31\x38\x2f\x30\x36\x2f\x62\x6c\x6f\x67\x67\x65\x72\x2d\x73\x65\x72\x69\x65\x73\x2d\x70\x6f\x73\x74\x2d\x68\x61\x63\x6b\x2d\x62\x69\x67\x35\x2e\x68\x74\x6d\x6c\x27 \x74\x61\x72\x67\x65\x74\x3d\x27\x5f\x62\x6c\x61\x6e\x6b\x27 \x73\x74\x79\x6c\x65\x3d\x27\x74\x65\x78\x74\x2d\x64\x65\x63\x6f\x72\x61\x74\x69\x6f\x6e\x3a \x6e\x6f\x6e\x65\x3b\x27 \x74\x69\x74\x6c\x65\x3d\x27\x42\x6c\x6f\x67\x67\x65\x72 \x70\x6f\x73\x74\x53\x65\x72\x69\x65\x73\u\x37\x63\x66\x62\u\x35\x32\x31\x37\u\x36\x35\x38\x37\n\x42\x79\u\x66\x66\x31\x61\x41\x6e\x67\x65\x6c\x6f\x45\x79\x65\x7a\x27\x3e"['\x73\x70\x6c\x69\x74']("\x2c"),0>f[a[0]](q))pfd&&0<npb?(g+=a[1]+f+a[2]+s5[i6][0]+a[3],npb--):e>=ZHh4&&(g+=a[1]+f+a[2]+s5[i6][0]+a[3]);else{pfd=!0;if(e<ZHh4)for(0<npt-i6&&(npb+=npt-i6,npt=i6),ZHh4-i6<=npb&&(npt+=npb-(ZHh4-i6-1),npb=ZHh4-i6-1),nn=npt;0<nn;nn--)g+=a[1]+s5[i6-nn][1]+a[2]+s5[i6-nn][0]+a[3];g+=a[4]+s5[i6][0]+a[5]+l+a[3]}g+="\x3c\x2f\x75\x6c\x3e";YRpO3("\x23\x70\x6f\x73\x74\x53\x65\x72\x69\x65\x73")['\x61\x70\x70\x65\x6e\x64'](g)['\x61\x74\x74\x72']("\x74\x69\x74\x6c\x65","")};postSeries['\x69\x6e\x69\x74']=function(){var eiFv7=jQuery,Q_Gb8=eiFv7("\x23\x70\x6f\x73\x74\x53\x65\x72\x69\x65\x73")['\x61\x74\x74\x72']("\x74\x69\x74\x6c\x65");eiFv7['\x67\x65\x74\x4a\x53\x4f\x4e']("\x2f\x66\x65\x65\x64\x73\x2f\x70\x6f\x73\x74\x73\x2f\x73\x75\x6d\x6d\x61\x72\x79\x3f\x71\x3d"+Q_Gb8+"\x26\x61\x6c\x74\x3d\x6a\x73\x6f\x6e\x2d\x69\x6e\x2d\x73\x63\x72\x69\x70\x74\x26\x73\x74\x61\x72\x74\x2d\x69\x6e\x64\x65\x78\x3d"+postSeries['\x73\x74\x61\x72\x74\x4e\x6f']+"\x26\x6d\x61\x78\x2d\x72\x65\x73\x75\x6c\x74\x73\x3d\x35\x30\x30\x26\x63\x61\x6c\x6c\x62\x61\x63\x6b\x3d\x3f",function(EpdhU9){var fTv10=EpdhU9['\x66\x65\x65\x64']['\x65\x6e\x74\x72\x79']['\x6c\x65\x6e\x67\x74\x68'],eiFv7=postSeries['\x6c\x61\x62\x65\x6c\x53\x65\x74'],l=postSeries['\x75\x72\x6c\x53\x65\x74'],e=postSeries['\x74\x69\x74\x6c\x65\x53\x65\x74'],g,bCKUu11;postSeries['\x74\x6f\x74\x61\x6c\x50\x6f\x73\x74']=EpdhU9['\x66\x65\x65\x64']['\x6f\x70\x65\x6e\x53\x65\x61\x72\x63\x68']['\x6f\x70\x65\x6e\x53\x65\x61\x72\x63\x68']['\x6f\x70\x65\x6e\x53\x65\x61\x72\x63\x68']['\x24']['\x24'];Q_Gb8=Q_Gb8['\x73\x70\x6c\x69\x74'](" ");var wsKD12=Q_Gb8['\x6c\x65\x6e\x67\x74\x68'];for(g=0;g<fTv10;g++){var tjVw13=EpdhU9['\x66\x65\x65\x64']['\x65\x6e\x74\x72\x79'][g];var _kvyD14=window["\x75\x6e\x65\x73\x63\x61\x70\x65"](tjVw13['\x74\x69\x74\x6c\x65']['\x24']['\x24']);var qUrDPNpV15=1;for(bCKUu11=0;bCKUu11<wsKD12;bCKUu11++)if(0>_kvyD14['\x73\x65\x61\x72\x63\x68'](Q_Gb8[bCKUu11])){qUrDPNpV15=0;break}if(qUrDPNpV15){qUrDPNpV15=tjVw13['\x6c\x69\x6e\x6b']['\x6c\x65\x6e\x67\x74\x68'];for(bCKUu11=0;bCKUu11<qUrDPNpV15;bCKUu11++)if("\x61\x6c\x74\x65\x72\x6e\x61\x74\x65"==tjVw13['\x6c\x69\x6e\x6b'][bCKUu11]['\x72\x65\x6c']){var wUq$klpK16=tjVw13['\x6c\x69\x6e\x6b'][bCKUu11]['\x68\x72\x65\x66'];break}if(tjVw13['\x63\x61\x74\x65\x67\x6f\x72\x79'])for(tjVw13=tjVw13['\x63\x61\x74\x65\x67\x6f\x72\x79'],qUrDPNpV15=tjVw13['\x6c\x65\x6e\x67\x74\x68'],bCKUu11=0;bCKUu11<qUrDPNpV15;bCKUu11++)-1<eiFv7['\x69\x6e\x64\x65\x78\x4f\x66'](window["\x75\x6e\x65\x73\x63\x61\x70\x65"](tjVw13[bCKUu11]['\x74\x65\x72\x6d']))&&0>l['\x69\x6e\x64\x65\x78\x4f\x66'](p)&&(l['\x70\x75\x73\x68'](p),e['\x70\x75\x73\x68'](_kvyD14))}}postSeries['\x74\x6f\x74\x61\x6c\x50\x6f\x73\x74']>=postSeries['\x73\x74\x61\x72\x74\x4e\x6f']+500?(postSeries['\x73\x74\x61\x72\x74\x4e\x6f']+=500,postSeries['\x69\x6e\x69\x74']()):postSeries['\x73\x68\x6f\x77\x50\x6f\x73\x74']()})};(function(){var hJ17=function(){var Re18=jQuery,yOmrQzBc19=Re18("\x6c\x69\x6e\x6b\x5b\x72\x65\x6c\x3d\x27\x73\x65\x72\x76\x69\x63\x65\x2e\x70\x6f\x73\x74\x27\x5d")['\x61\x74\x74\x72']("\x68\x72\x65\x66")['\x72\x65\x70\x6c\x61\x63\x65']("\x64\x65\x66\x61\x75\x6c\x74","\x73\x75\x6d\x6d\x61\x72\x79"),siu20=Re18("\x2e\x70\x6f\x73\x74\x2d\x62\x6f\x64\x79")['\x61\x74\x74\x72']("\x69\x64")['\x72\x65\x70\x6c\x61\x63\x65']("\x70\x6f\x73\x74\x2d\x62\x6f\x64\x79\x2d","");Re18['\x67\x65\x74\x4a\x53\x4f\x4e'](yOmrQzBc19+"\x2f"+siu20+"\x3f\x61\x6c\x74\x3d\x6a\x73\x6f\x6e\x2d\x69\x6e\x2d\x73\x63\x72\x69\x70\x74\x26\x63\x61\x6c\x6c\x62\x61\x63\x6b\x3d\x3f",function(RaJyu21){RaJyu21=RaJyu21['\x65\x6e\x74\x72\x79']['\x63\x61\x74\x65\x67\x6f\x72\x79'];var ZUp22=RaJyu21['\x6c\x65\x6e\x67\x74\x68'],c=postSeries['\x6c\x61\x62\x65\x6c\x53\x65\x74'],yOmrQzBc19;for(yOmrQzBc19=0;yOmrQzBc19<ZUp22;yOmrQzBc19++)c[yOmrQzBc19]=RaJyu21[yOmrQzBc19]['\x74\x65\x72\x6d'];postSeries['\x69\x6e\x69\x74']()})},b=function(a,$fUR23){var pNq24=window["\x64\x6f\x63\x75\x6d\x65\x6e\x74"]['\x63\x72\x65\x61\x74\x65\x45\x6c\x65\x6d\x65\x6e\x74']("\x73\x63\x72\x69\x70\x74");pNq24['\x72\x65\x61\x64\x79\x53\x74\x61\x74\x65']?pNq24['\x6f\x6e\x72\x65\x61\x64\x79\x73\x74\x61\x74\x65\x63\x68\x61\x6e\x67\x65']=function(){if("\x6c\x6f\x61\x64\x65\x64"==pNq24['\x72\x65\x61\x64\x79\x53\x74\x61\x74\x65']||"\x63\x6f\x6d\x70\x6c\x65\x74\x65"==pNq24['\x72\x65\x61\x64\x79\x53\x74\x61\x74\x65'])pNq24['\x6f\x6e\x72\x65\x61\x64\x79\x73\x74\x61\x74\x65\x63\x68\x61\x6e\x67\x65']=null,$fUR23&&$fUR23()}:pNq24['\x6f\x6e\x6c\x6f\x61\x64']=function(){$fUR23&&$fUR23()};pNq24['\x73\x72\x63']=a;window["\x64\x6f\x63\x75\x6d\x65\x6e\x74"]['\x64\x6f\x63\x75\x6d\x65\x6e\x74\x45\x6c\x65\x6d\x65\x6e\x74']['\x66\x69\x72\x73\x74\x43\x68\x69\x6c\x64']['\x61\x70\x70\x65\x6e\x64\x43\x68\x69\x6c\x64'](pNq24)},f=function(){b("\x68\x74\x74\x70\x3a\x2f\x2f\x61\x6a\x61\x78\x2e\x67\x6f\x6f\x67\x6c\x65\x61\x70\x69\x73\x2e\x63\x6f\x6d\x2f\x61\x6a\x61\x78\x2f\x6c\x69\x62\x73\x2f\x6a\x71\x75\x65\x72\x79\x2f\x31\x2e\x38\x2e\x32\x2f\x6a\x71\x75\x65\x72\x79\x2e\x6d\x69\x6e\x2e\x6a\x73",hJ17)};if("\x75\x6e\x64\x65\x66\x69\x6e\x65\x64"===typeof jQuery)f();else{var G25=jQuery()['\x6a\x71\x75\x65\x72\x79'];G25=G25['\x73\x70\x6c\x69\x74']("\x2e");10>G25[1]&&(G25[1]="\x30"+G25[1]);G25=G25['\x6a\x6f\x69\x6e']("\x2e");"\x31\x2e\x30\x38\x2e\x32">G25?f():hJ17()}})();
+postSeries.labelSet = [];
+postSeries.titleSet = [];
+postSeries.urlSet = [];
+postSeries.totalPost = 0;
+postSeries.startNo = 1;
+if (!Array.indexOf) {
+    Array.prototype.indexOf = function(b) {
+        for (var a = 0; a < this.length; a++) {
+            if (this[a] == b) {
+                return a
+            }
+        }
+        return -1
+    }
+}
+postSeries.showPost = function() {
+    var f = jQuery,
+        c = postSeries.urlSet.length,
+        k = postSeries.titleSet,
+        h = postSeries.urlSet,
+        j = location.pathname,
+        a = postSeries.pointer,
+        np = postSeries.numPost,
+        g = "",
+        d = [],
+        b, e;
+    for (e = 0; e < c; e++) {
+        d[e] = [k[e], h[e]]
+    }
+    d.sort();
+    a = (a.search("http") < 0) ? a : "<img src='" + a + "'/>";
+    np = (np <= 3) ? 3 : np; //文章數至少3
+    npt = Math.round(np/2)-1; //pointer上方文章數
+    npb = (np%2 == 0) ? np/2 : (np-1)/2; //pointer下方文章數
+    pfd = false; 
+    ee=0;
+
+    g += "<ul>";
+    for (e = 0; e < c; e++) {
+        b = d[e][1];
+        var _0x9e96 =  ["search", "<li><a href=\'", "\' target=\'_blank\'>", "</a></li>", "<li>", "\x26\x23\x31\x32\x32\x38\x38\x3b\x3c\x61 \x68\x72\x65\x66\x3d\'\x68\x74\x74\x70\x3a\x2f\x2f\x61\x6e\x67\x65\x6c\x6f\x65\x79\x65\x7a\x2e\x62\x6c\x6f\x67\x73\x70\x6f\x74\x2e\x63\x6f\x6d\x2f\x32\x30\x31\x38\x2f\x30\x36\x2f\x62\x6c\x6f\x67\x67\x65\x72\x2d\x73\x65\x72\x69\x65\x73\x2d\x70\x6f\x73\x74\x2d\x68\x61\x63\x6b\x2d\x62\x69\x67\x35\x2e\x68\x74\x6d\x6c\' \x74\x61\x72\x67\x65\x74\x3d\'\x5f\x62\x6c\x61\x6e\x6b\' \x73\x74\x79\x6c\x65\x3d\'\x74\x65\x78\x74\x2d\x64\x65\x63\x6f\x72\x61\x74\x69\x6f\x6e\x3a \x6e\x6f\x6e\x65\x3b\' \x74\x69\x74\x6c\x65\x3d\'\x42\x6c\x6f\x67\x67\x65\x72 \x70\x6f\x73\x74\x53\x65\x72\x69\x65\x73\u7cfb\u5217\u6587\x\x30\x41\x42\x79\uff1a\x41\x6e\x67\x65\x6c\x6f\x45\x79\x65\x7a\'\x3e"];        if (b[_0x9e96[0]](j) < 0) {
+            if (pfd && npb >0) {
+                g += _0x9e96[1] + b + _0x9e96[2] + d[e][0] + _0x9e96[3];
+                npb--;
+            } else if (np>=c)
+                g += _0x9e96[1] + b + _0x9e96[2] + d[e][0] + _0x9e96[3];            
+        } else {
+            pfd = true;
+            if (np < c){ //如果總文章數比numpost少，那就不處理，全部顯示
+                if ((npt-e) > 0){npb += npt-e; npt = e;} //前面文章數不夠就用後面的補齊
+                if (c-e <= npb){npt+=npb-(c-e-1); npb = c-e-1;} //後面文章數不夠，用前面補齊
+                for (nn = npt; nn>0; nn--) {
+                    g += _0x9e96[1] + d[e-nn][1] + _0x9e96[2] + d[e-nn][0] + _0x9e96[3];
+                }
+            }
+            g += _0x9e96[4] + d[e][0] + _0x9e96[5] + a + _0x9e96[3];
+        };
+    }
+    g += "</ul>";
+    f("#postSeries")
+        .append(g)
+        .attr("title", "")
+};
+postSeries.init = function() {
+    var c = jQuery,
+        b = c("#postSeries")
+        .attr("title"),
+        a;
+    a = "/feeds/posts/summary?q=" + b + "&alt=json-in-script&start-index=" + postSeries.startNo + "&max-results=500&callback=?";
+    c.getJSON(a, function(u) {
+        var m = u.feed.entry.length,
+            h = postSeries.labelSet,
+            q = postSeries.urlSet,
+            t = postSeries.titleSet,
+            s, r, e, g, p, o, n, d, f;
+        postSeries.totalPost = u.feed.openSearch$totalResults.$t;
+        b = b.split(" ");
+        d = b.length;
+        for (p = 0; p < m; p++) {
+            s = u.feed.entry[p];
+            r = unescape(s.title.$t);
+            f = 1;
+            for (o = 0; o < d; o++) {
+                if (r.search(b[o]) < 0) {
+                    f = 0;
+                    break
+                }
+            }
+            if (f) {
+                n = s.link.length;
+                for (o = 0; o < n; o++) {
+                    if (s.link[o].rel == "alternate") {
+                        e = s.link[o].href;
+                        break
+                    }
+                }
+                if (!s.category) {
+                    continue
+                }
+                g = s.category;
+                n = g.length;
+                for (o = 0; o < n; o++) {
+                    if (h.indexOf(unescape(g[o].term)) > -1 && q.indexOf(e) < 0) {
+                        q.push(e);
+                        t.push(r)
+                    }
+                }
+            }
+        }
+        if (postSeries.totalPost >= postSeries.startNo + 500) {
+            postSeries.startNo += 500;
+            postSeries.init()
+        } else {
+            postSeries.showPost()
+        }
+    })
+};
+(function() {
+    var f = function() {
+            var h = jQuery,
+                i = h("link[rel='service.post']")
+                .attr("href")
+                .replace("default", "summary"),
+                j = h(".post-body")
+                .attr("id")
+                .replace("post-body-", ""),
+                g = i + "/" + j + "?alt=json-in-script&callback=?";
+            h.getJSON(g, function(o) {
+                var p = o.entry.category,
+                    k = p.length,
+                    m = postSeries.labelSet,
+                    n;
+                for (n = 0; n < k; n++) {
+                    m[n] = p[n].term
+                }
+                postSeries.init()
+            })
+        },
+        a = function(g, h) {
+            var i = document.createElement("script");
+            if (i.readyState) {
+                i.onreadystatechange = function() {
+                    if (i.readyState == "loaded" || i.readyState == "complete") {
+                        i.onreadystatechange = null;
+                        if (h) {
+                            h()
+                        }
+                    }
+                }
+            } else {
+                i.onload = function() {
+                    if (h) {
+                        h()
+                    }
+                }
+            }
+            i.src = g;
+            document.documentElement.firstChild.appendChild(i)
+        },
+        c = function() {
+            a("http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js", f)
+        };
+    if (typeof jQuery === "undefined") {
+        c()
+    } else {
+        var b = jQuery()
+            .jquery,
+            e = b.split("."),
+            d = "1.08.2";
+        if (e[1] < 10) {
+            e[1] = "0" + e[1]
+        }
+        b = e.join(".");
+        if (b < d) {
+            c()
+        } else {
+            f()
+        }
+    }
+})();
