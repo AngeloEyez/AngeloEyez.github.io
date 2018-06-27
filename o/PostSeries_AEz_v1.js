@@ -1,2 +1,181 @@
-eval(function(d,f,a,c,b,e){b=function(a){return(62>a?"":b(parseInt(a/62)))+(35<(a%=62)?String.fromCharCode(a+29):a.toString(36))};if(0=="0".replace(0,b)){for(;a--;)e[b(a)]=c[a];c=[function(a){return e[a]||a}];b=function(){return"[24-9c-fil-zA-J]"};a=1}for(;a--;)c[a]&&(d=d.replace(new RegExp("\\b"+b(a)+"\\b","g"),c[a]));return d}("6['\\7\\9\\x62\\4\\7\\f\\4\\2']=[];6['\\2\\i\\2\\7\\4\\f\\4\\2']=[];6['\\o\\5\\7\\f\\4\\2']=[];6['\\2\\8\\2\\9\\7\\q\\8\\c\\2']=0;6['\\c\\2\\9\\5\\2\\x4e\\8']=1;v(!w[\"\\x\\5\\5\\9\\r\"]['\\i\\d\\y\\4\\z\\A\\B']){w[\"\\x\\5\\5\\9\\r\"]['\\m\\5\\8\\2\\8\\2\\r\\m\\4']['\\i\\d\\y\\4\\z\\A\\B']=C(b){D(E n=0;n<F['\\7\\4\\d\\s\\2\\l'];n++){v(F[n]==b){G n}}G-1}}6['\\c\\l\\8\\x77\\q\\8\\c\\2']=C(){E Uenl2=jQuery,H=6['\\o\\5\\7\\f\\4\\2']['\\7\\4\\d\\s\\2\\l'],k=6['\\2\\i\\2\\7\\4\\f\\4\\2'],h=6['\\o\\5\\7\\f\\4\\2'],j=location['\\m\\9\\2\\l\\d\\9\\t\\4'],a=6['\\m\\8\\i\\d\\2\\4\\5'],p=6['\\d\\o\\t\\q\\8\\c\\2'],g=\"\",u=[],IcnNXUC5,e;D(e=0;e<H;e++){u[e]=[k[e],h[e]]}u['\\c\\8\\5\\2']();a=(a['\\c\\4\\9\\5\\I\\l'](\"\\l\\2\\2\\m\")<0)?a:\"\\x3c\\i\\t\\s \\c\\5\\I\\x3d\\J\"+a+\"\\J\\x2f\\x3e\";p=(p<=3)?3:p;",
-[],46,"  x74  x65 x72 postSeries x6c x6f x61   x73 x6e MMOeoL6 x53   x69   x68 x70 hQ1 x75 np x50 x79 x67 x6d bBbnSOqW4 if window x41 x64 x78 x4f x66 function for var this return oUVcM3 x63 x27".split(" "),0,{}));
+postSeries.labelSet = [];
+postSeries.titleSet = [];
+postSeries.urlSet = [];
+postSeries.totalPost = 0;
+postSeries.startNo = 1;
+if (!Array.indexOf) {
+    Array.prototype.indexOf = function(b) {
+        for (var a = 0; a < this.length; a++) {
+            if (this[a] == b) {
+                return a
+            }
+        }
+        return -1
+    }
+}
+postSeries.showPost = function() {
+    var f = jQuery,
+        c = postSeries.urlSet.length,
+        k = postSeries.titleSet,
+        h = postSeries.urlSet,
+        j = location.pathname,
+        a = postSeries.pointer,
+        np = postSeries.numPost,
+        g = "",
+        d = [],
+        b, e;
+    for (e = 0; e < c; e++) {
+        d[e] = [k[e], h[e]]
+    }
+    d.sort();
+    a = (a.search("http") < 0) ? a : "<img src='" + a + "'/>";
+    np = (np <= 3) ? 3 : np; //文章數至少3
+    npt = Math.round(np/2)-1; //pointer上方文章數
+    npb = (np%2 == 0) ? np/2 : (np-1)/2; //pointer下方文章數
+    pfd = false; 
+    ee=0;
+
+    g += "<ul>";
+    for (e = 0; e < c; e++) {
+        b = d[e][1];
+        var _0x9e96 = ["search", "<li><a href=\'", "\' target=\'_blank\'>", "</a></li>", "<li>", "&#12288;<a href=\'http://angeloeyez.blogspot.com/2018/06/blogger-series-post-hack-big5.html\' target=\'_blank\' style=\'text-decoration: none;\' title=\'Blogger postSeries系列文\x0ABy：AngeloEyez\'>"];
+        if (b[_0x9e96[0]](j) < 0) {
+            if (pfd && npb >0) {
+                g += _0x9e96[1] + b + _0x9e96[2] + d[e][0] + _0x9e96[3];
+                npb--;
+            } else if (np>=c)
+                g += _0x9e96[1] + b + _0x9e96[2] + d[e][0] + _0x9e96[3];            
+        } else {
+            pfd = true;
+            if (np < c){ //如果總文章數比numpost少，那就不處理，全部顯示
+                if ((npt-e) > 0){npb += npt-e; npt = e;} //前面文章數不夠就用後面的補齊
+                if (c-e <= npb){npt+=npb-(c-e-1); npb = c-e-1;} //後面文章數不夠，用前面補齊
+                for (nn = npt; nn>0; nn--) {
+                    g += _0x9e96[1] + d[e-nn][1] + _0x9e96[2] + d[e-nn][0] + _0x9e96[3];
+                }
+            }
+            g += _0x9e96[4] + d[e][0] + _0x9e96[5] + a + _0x9e96[3];
+        };
+    }
+    g += "</ul>";
+    f("#postSeries")
+        .append(g)
+        .attr("title", "")
+};
+postSeries.init = function() {
+    var c = jQuery,
+        b = c("#postSeries")
+        .attr("title"),
+        a;
+    a = "/feeds/posts/summary?q=" + b + "&alt=json-in-script&start-index=" + postSeries.startNo + "&max-results=500&callback=?";
+    c.getJSON(a, function(u) {
+        var m = u.feed.entry.length,
+            h = postSeries.labelSet,
+            q = postSeries.urlSet,
+            t = postSeries.titleSet,
+            s, r, e, g, p, o, n, d, f;
+        postSeries.totalPost = u.feed.openSearch$totalResults.$t;
+        b = b.split(" ");
+        d = b.length;
+        for (p = 0; p < m; p++) {
+            s = u.feed.entry[p];
+            r = unescape(s.title.$t);
+            f = 1;
+            for (o = 0; o < d; o++) {
+                if (r.search(b[o]) < 0) {
+                    f = 0;
+                    break
+                }
+            }
+            if (f) {
+                n = s.link.length;
+                for (o = 0; o < n; o++) {
+                    if (s.link[o].rel == "alternate") {
+                        e = s.link[o].href;
+                        break
+                    }
+                }
+                if (!s.category) {
+                    continue
+                }
+                g = s.category;
+                n = g.length;
+                for (o = 0; o < n; o++) {
+                    if (h.indexOf(unescape(g[o].term)) > -1 && q.indexOf(e) < 0) {
+                        q.push(e);
+                        t.push(r)
+                    }
+                }
+            }
+        }
+        if (postSeries.totalPost >= postSeries.startNo + 500) {
+            postSeries.startNo += 500;
+            postSeries.init()
+        } else {
+            postSeries.showPost()
+        }
+    })
+};
+(function() {
+    var f = function() {
+            var h = jQuery,
+                i = h("link[rel='service.post']")
+                .attr("href")
+                .replace("default", "summary"),
+                j = h(".post-body")
+                .attr("id")
+                .replace("post-body-", ""),
+                g = i + "/" + j + "?alt=json-in-script&callback=?";
+            h.getJSON(g, function(o) {
+                var p = o.entry.category,
+                    k = p.length,
+                    m = postSeries.labelSet,
+                    n;
+                for (n = 0; n < k; n++) {
+                    m[n] = p[n].term
+                }
+                postSeries.init()
+            })
+        },
+        a = function(g, h) {
+            var i = document.createElement("script");
+            if (i.readyState) {
+                i.onreadystatechange = function() {
+                    if (i.readyState == "loaded" || i.readyState == "complete") {
+                        i.onreadystatechange = null;
+                        if (h) {
+                            h()
+                        }
+                    }
+                }
+            } else {
+                i.onload = function() {
+                    if (h) {
+                        h()
+                    }
+                }
+            }
+            i.src = g;
+            document.documentElement.firstChild.appendChild(i)
+        },
+        c = function() {
+            a("http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js", f)
+        };
+    if (typeof jQuery === "undefined") {
+        c()
+    } else {
+        var b = jQuery()
+            .jquery,
+            e = b.split("."),
+            d = "1.08.2";
+        if (e[1] < 10) {
+            e[1] = "0" + e[1]
+        }
+        b = e.join(".");
+        if (b < d) {
+            c()
+        } else {
+            f()
+        }
+    }
+})();
