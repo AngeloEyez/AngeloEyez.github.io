@@ -40,7 +40,7 @@ postSeries.showPost = function() {
     for (e = 0; e < c; e++) {
         b = d[e][1];
         var _0x9e96 = ["search", "<li><a href=\'", "\' target=\'_blank\'>", "</a></li>", "<li>", "&#12288;<a href=\'http://angeloeyez.blogspot.com/2018/06/blogger-series-post-hack-big5.html\' target=\'_blank\' style=\'text-decoration: none;\' title=\'Blogger postSeries系列文\x0ABy：AngeloEyez\'>"];
-        if (b[search](j) < 0) {
+        if (b.search(j) < 0) {
             if (pfd && npb >0) {
                 g += _0x9e96[1] + b + _0x9e96[2] + d[e][0] + _0x9e96[3];
                 npb--;
