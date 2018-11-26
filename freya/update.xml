@@ -8,9 +8,9 @@
   <PromptUserBeforeAutomaticUpgrade>false</PromptUserBeforeAutomaticUpgrade>
   <AutoCloseSucceedWindow>true</AutoCloseSucceedWindow>
   <Package>50825e10c4714f87a1b0a851539fc680.zip</Package>
-  <MD5>F7DC2A83948F973426B7AC03C4E91C4A</MD5>
+  <MD5>092FD369B32C69E743A8A1F47794864B</MD5>
   <DeleteMethod>AllExceptSpecified</DeleteMethod>
-  <PackageSize>8450995</PackageSize>
+  <PackageSize>8451029</PackageSize>
   <ForceUpdate>false</ForceUpdate>
   <Packages>
     <PackageInfo>
@@ -86,13 +86,13 @@
     <PackageInfo>
       <FilePath>Heimdallr.exe</FilePath>
       <FileSize>344064</FileSize>
-      <Version>2018.11.26.710</Version>
-      <PackageHash>C8042C80A42FF4C08AA87600E4ADAF18</PackageHash>
+      <Version>2018.11.26.718</Version>
+      <PackageHash>12151C0C434FF925FD9795E4ECCA8617</PackageHash>
       <PackageName>475a91b4a1e14ec39ac69d7cc57d6c5b.zip</PackageName>
-      <PackageSize>144351</PackageSize>
+      <PackageSize>144385</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
-      <FileHash>A7C301017AAC2ECF63330279AECB4859</FileHash>
+      <FileHash>5539446497494CF8A6438C4DA07FB1AE</FileHash>
       <Files>
         <string>Heimdallr.exe</string>
       </Files>
@@ -199,7 +199,7 @@
       <FilePath>en\SimpleUpdater.resources.dll</FilePath>
       <FileSize>70656</FileSize>
       <Version>4.3.0.0</Version>
-      <PackageHash>2A7F9033CC1146AB53A27F43780BF1C7</PackageHash>
+      <PackageHash>8895601D0CCA9E62D7BA80EB7C258AC5</PackageHash>
       <PackageName>3098d960bc074f3b9180e08dfbb635b1.zip</PackageName>
       <PackageSize>23905</PackageSize>
       <Method>VersionCompare</Method>
