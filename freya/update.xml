@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <UpdateInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <AppName>Freya</AppName>
-  <AppVersion>2018.11.26.710</AppVersion>
+  <AppVersion>2018.11.26.729</AppVersion>
   <FileExecuteAfter>Heimdallr.exe</FileExecuteAfter>
   <ExecuteTimeout>0</ExecuteTimeout>
   <TreatErrorAsNotUpdated>false</TreatErrorAsNotUpdated>
   <PromptUserBeforeAutomaticUpgrade>false</PromptUserBeforeAutomaticUpgrade>
   <AutoCloseSucceedWindow>true</AutoCloseSucceedWindow>
   <Package>50825e10c4714f87a1b0a851539fc680.zip</Package>
-  <MD5>092FD369B32C69E743A8A1F47794864B</MD5>
+  <MD5>5C8EC6680DE2B965274FFD30FFE2820C</MD5>
   <DeleteMethod>AllExceptSpecified</DeleteMethod>
-  <PackageSize>8451029</PackageSize>
+  <PackageSize>8451099</PackageSize>
   <ForceUpdate>false</ForceUpdate>
   <Packages>
     <PackageInfo>
@@ -30,13 +30,13 @@
     <PackageInfo>
       <FilePath>Freya.exe</FilePath>
       <FileSize>1252864</FileSize>
-      <Version>2018.11.26.710</Version>
-      <PackageHash>2A1C8DA37E3CB3532306033A63A0F818</PackageHash>
+      <Version>2018.11.26.729</Version>
+      <PackageHash>AE6872FF980AE05F3133595AB2D3E9B3</PackageHash>
       <PackageName>35415813a6644a8ca9ecb38980ea4f0b.zip</PackageName>
-      <PackageSize>121463</PackageSize>
+      <PackageSize>121487</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
-      <FileHash>A268D1F5FBC57BDDA813B814513BE976</FileHash>
+      <FileHash>3C33C0F0432A5E1DB819E73499A6D617</FileHash>
       <Files>
         <string>Freya.exe</string>
       </Files>
@@ -45,12 +45,12 @@
       <FilePath>Freya.Proxy.dll</FilePath>
       <FileSize>64512</FileSize>
       <Version>2018.11.26.710</Version>
-      <PackageHash>7817FC68F99D8A6742FB42B1E418A3C3</PackageHash>
+      <PackageHash>8DCE1EBE3F3F880F0B7BCFDE07B9198F</PackageHash>
       <PackageName>49df53bbc45e44b5904bdf30db05ba62.zip</PackageName>
-      <PackageSize>23209</PackageSize>
+      <PackageSize>23207</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
-      <FileHash>AA9AB77C260F3A28183AC381915745B3</FileHash>
+      <FileHash>A651D2654119FF1ACD909F885D1E669E</FileHash>
       <Files>
         <string>Freya.Proxy.dll</string>
       </Files>
@@ -59,12 +59,12 @@
       <FilePath>Freya.Service.exe</FilePath>
       <FileSize>6570496</FileSize>
       <Version>2018.11.26.710</Version>
-      <PackageHash>319155F87EEC9F9BF60F101E0C213CC3</PackageHash>
+      <PackageHash>28CEDEF246CD6D3A8D8260139E4F7EB6</PackageHash>
       <PackageName>1faa03942549422ebfca94e4c865826c.zip</PackageName>
-      <PackageSize>6192614</PackageSize>
+      <PackageSize>6192606</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
-      <FileHash>03F1478F1E7C61BD628CFAF25A45CC54</FileHash>
+      <FileHash>ADA8A70CD2BC3B862B01376542F3EE54</FileHash>
       <Files>
         <string>Freya.Service.exe</string>
       </Files>
@@ -73,26 +73,26 @@
       <FilePath>FreyaCore.dll</FilePath>
       <FileSize>18944</FileSize>
       <Version>2018.11.26.710</Version>
-      <PackageHash>2BA70F48B9D94D78B66F8BD40559AD50</PackageHash>
+      <PackageHash>AD5F48939C096C02E91389664C17F34B</PackageHash>
       <PackageName>0a5f9841c204473ba203c0cf1929ccb6.zip</PackageName>
       <PackageSize>8877</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
-      <FileHash>B0E1CD2C450843CD43747FE712FA32CC</FileHash>
+      <FileHash>C5263DB9267F5D450CFC542227F1AB39</FileHash>
       <Files>
         <string>FreyaCore.dll</string>
       </Files>
     </PackageInfo>
     <PackageInfo>
       <FilePath>Heimdallr.exe</FilePath>
-      <FileSize>344064</FileSize>
-      <Version>2018.11.26.718</Version>
-      <PackageHash>12151C0C434FF925FD9795E4ECCA8617</PackageHash>
+      <FileSize>344576</FileSize>
+      <Version>2018.11.26.743</Version>
+      <PackageHash>EA334ED42512AB0FDB6EF0C0218B095E</PackageHash>
       <PackageName>475a91b4a1e14ec39ac69d7cc57d6c5b.zip</PackageName>
-      <PackageSize>144385</PackageSize>
+      <PackageSize>144433</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
-      <FileHash>5539446497494CF8A6438C4DA07FB1AE</FileHash>
+      <FileHash>7638776A0C8B7C2B79C16E9A952251B4</FileHash>
       <Files>
         <string>Heimdallr.exe</string>
       </Files>
@@ -101,12 +101,12 @@
       <FilePath>MailKit.dll</FilePath>
       <FileSize>668672</FileSize>
       <Version>2018.11.26.710</Version>
-      <PackageHash>F0B6381D969C70AB6B7F7ADA7DE5493F</PackageHash>
+      <PackageHash>32D135C55D2A4619360D8C44E1B7E91E</PackageHash>
       <PackageName>ba8ba80f2e764c2b889ce31428c7276a.zip</PackageName>
-      <PackageSize>231980</PackageSize>
+      <PackageSize>231976</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
-      <FileHash>AB94D113088217FCD15DED576637D7B5</FileHash>
+      <FileHash>5366E11712E3ED75E30AA7DFB59FB7B9</FileHash>
       <Files>
         <string>MailKit.dll</string>
       </Files>
@@ -115,12 +115,12 @@
       <FilePath>MimeKit.dll</FilePath>
       <FileSize>895488</FileSize>
       <Version>2018.11.26.710</Version>
-      <PackageHash>BBE07EE9F65425CC9B382FEEC6BBAB36</PackageHash>
+      <PackageHash>8B2DCB3AC2E0C9A7361A50676E6AC59A</PackageHash>
       <PackageName>42344cf5868c45dba88b32ba741df9be.zip</PackageName>
-      <PackageSize>345598</PackageSize>
+      <PackageSize>345599</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
-      <FileHash>E3C88A4E14892A046B42BCF94D4B0E7B</FileHash>
+      <FileHash>0768CF427C27B4049FA15423D35551A5</FileHash>
       <Files>
         <string>MimeKit.dll</string>
       </Files>
@@ -143,12 +143,12 @@
       <FilePath>OpaqueMail.CertHelper.dll</FilePath>
       <FileSize>10240</FileSize>
       <Version>2018.11.26.710</Version>
-      <PackageHash>605CB5B230A681DC387B0131ACEBDD6A</PackageHash>
+      <PackageHash>4B6B3B684A2829A8417AD0ECD7EF2095</PackageHash>
       <PackageName>3b4398922e0d4445adeaa81f968c271f.zip</PackageName>
       <PackageSize>4592</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
-      <FileHash>B833B17FF19596AEFE0B075325C8C239</FileHash>
+      <FileHash>C65A11C91DE3A0ACBC8260B80D344C42</FileHash>
       <Files>
         <string>OpaqueMail.CertHelper.dll</string>
       </Files>
@@ -157,12 +157,12 @@
       <FilePath>OpaqueMail.dll</FilePath>
       <FileSize>246784</FileSize>
       <Version>2018.11.26.710</Version>
-      <PackageHash>270640F722E846AEE2A55B53FBEC9D14</PackageHash>
+      <PackageHash>23B5E0011D180B8CA262EE510F8DCB8C</PackageHash>
       <PackageName>9020e53dc1fb482bb1c6bb8eb5cd6632.zip</PackageName>
-      <PackageSize>89274</PackageSize>
+      <PackageSize>89275</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
-      <FileHash>62A3732BEE1CEA6C4D0A2F77F34F3F6D</FileHash>
+      <FileHash>5DFFBF82B00E9AF54C53E119C7849206</FileHash>
       <Files>
         <string>OpaqueMail.dll</string>
       </Files>
@@ -185,12 +185,12 @@
       <FilePath>ZetaIpc.dll</FilePath>
       <FileSize>148480</FileSize>
       <Version>2018.11.26.710</Version>
-      <PackageHash>FD0596B4E659214AF5B9FA7C72FCECAB</PackageHash>
+      <PackageHash>96B5AEB05C811A913C654FF5C0BA1D43</PackageHash>
       <PackageName>d2c35501abb14640b9b41e997ca4c9e6.zip</PackageName>
-      <PackageSize>65283</PackageSize>
+      <PackageSize>65293</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
-      <FileHash>9ABE240C3A1B749961C6AD9C16CCEB4D</FileHash>
+      <FileHash>8DB31A47DA1B5C47D049FF6DCE1BB8D1</FileHash>
       <Files>
         <string>ZetaIpc.dll</string>
       </Files>
@@ -199,7 +199,7 @@
       <FilePath>en\SimpleUpdater.resources.dll</FilePath>
       <FileSize>70656</FileSize>
       <Version>4.3.0.0</Version>
-      <PackageHash>8895601D0CCA9E62D7BA80EB7C258AC5</PackageHash>
+      <PackageHash>FC92CCA170EAC2BE924404CC6EB6624D</PackageHash>
       <PackageName>3098d960bc074f3b9180e08dfbb635b1.zip</PackageName>
       <PackageSize>23905</PackageSize>
       <Method>VersionCompare</Method>
