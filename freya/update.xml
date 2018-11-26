@@ -7,8 +7,8 @@
   <TreatErrorAsNotUpdated>false</TreatErrorAsNotUpdated>
   <PromptUserBeforeAutomaticUpgrade>false</PromptUserBeforeAutomaticUpgrade>
   <AutoCloseSucceedWindow>true</AutoCloseSucceedWindow>
-  <Package>50825e10c4714f87a1b0a851539fc680.zip</Package>
-  <MD5>5C8EC6680DE2B965274FFD30FFE2820C</MD5>
+  <Package>4bc042592e2b43159dcf26048f31384c.jpg</Package>
+  <MD5>2658BA184E293A08C6D6072451ABFC3C</MD5>
   <DeleteMethod>AllExceptSpecified</DeleteMethod>
   <PackageSize>8451099</PackageSize>
   <ForceUpdate>false</ForceUpdate>
@@ -18,7 +18,7 @@
       <FileSize>2371584</FileSize>
       <Version>1.8.18099.1</Version>
       <PackageHash>1ECC6BFB400153C5DE49E9CDAF27E13C</PackageHash>
-      <PackageName>d7eace54676d4c28b24c9d38908db333.zip</PackageName>
+      <PackageName>332ba97f59674cae9ae2a858449e2b5f.jpg</PackageName>
       <PackageSize>804590</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
@@ -32,7 +32,7 @@
       <FileSize>1252864</FileSize>
       <Version>2018.11.26.729</Version>
       <PackageHash>AE6872FF980AE05F3133595AB2D3E9B3</PackageHash>
-      <PackageName>35415813a6644a8ca9ecb38980ea4f0b.zip</PackageName>
+      <PackageName>f4175434c6a24d489757d21a14f95328.jpg</PackageName>
       <PackageSize>121487</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
@@ -46,7 +46,7 @@
       <FileSize>64512</FileSize>
       <Version>2018.11.26.710</Version>
       <PackageHash>8DCE1EBE3F3F880F0B7BCFDE07B9198F</PackageHash>
-      <PackageName>49df53bbc45e44b5904bdf30db05ba62.zip</PackageName>
+      <PackageName>862a9ad644a640a7b646a2a3b116280c.jpg</PackageName>
       <PackageSize>23207</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
@@ -60,7 +60,7 @@
       <FileSize>6570496</FileSize>
       <Version>2018.11.26.710</Version>
       <PackageHash>28CEDEF246CD6D3A8D8260139E4F7EB6</PackageHash>
-      <PackageName>1faa03942549422ebfca94e4c865826c.zip</PackageName>
+      <PackageName>9b6b0ac05e4a47cf84084e88279511a7.jpg</PackageName>
       <PackageSize>6192606</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
@@ -74,7 +74,7 @@
       <FileSize>18944</FileSize>
       <Version>2018.11.26.710</Version>
       <PackageHash>AD5F48939C096C02E91389664C17F34B</PackageHash>
-      <PackageName>0a5f9841c204473ba203c0cf1929ccb6.zip</PackageName>
+      <PackageName>c8b8675e38ef4f6d8a8c731320b80531.jpg</PackageName>
       <PackageSize>8877</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
@@ -88,7 +88,7 @@
       <FileSize>344576</FileSize>
       <Version>2018.11.26.743</Version>
       <PackageHash>EA334ED42512AB0FDB6EF0C0218B095E</PackageHash>
-      <PackageName>475a91b4a1e14ec39ac69d7cc57d6c5b.zip</PackageName>
+      <PackageName>2aa05e7437dd4eff816b1c6c4eac2641.jpg</PackageName>
       <PackageSize>144433</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
@@ -102,7 +102,7 @@
       <FileSize>668672</FileSize>
       <Version>2018.11.26.710</Version>
       <PackageHash>32D135C55D2A4619360D8C44E1B7E91E</PackageHash>
-      <PackageName>ba8ba80f2e764c2b889ce31428c7276a.zip</PackageName>
+      <PackageName>a4c7eb43cb0c4ff78e87baac56053980.jpg</PackageName>
       <PackageSize>231976</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
@@ -116,7 +116,7 @@
       <FileSize>895488</FileSize>
       <Version>2018.11.26.710</Version>
       <PackageHash>8B2DCB3AC2E0C9A7361A50676E6AC59A</PackageHash>
-      <PackageName>42344cf5868c45dba88b32ba741df9be.zip</PackageName>
+      <PackageName>4ec47f66e15e43b59044928e6be1acb7.jpg</PackageName>
       <PackageSize>345599</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
@@ -130,7 +130,7 @@
       <FileSize>662528</FileSize>
       <Version>11.0.2.21924</Version>
       <PackageHash>CD8888EF573F9A9AE112051D6B11AEE8</PackageHash>
-      <PackageName>7c01519757494dbd8974a24fd05477bd.zip</PackageName>
+      <PackageName>f8b40895de0a4890a6ba002c575682d4.jpg</PackageName>
       <PackageSize>246449</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
@@ -144,7 +144,7 @@
       <FileSize>10240</FileSize>
       <Version>2018.11.26.710</Version>
       <PackageHash>4B6B3B684A2829A8417AD0ECD7EF2095</PackageHash>
-      <PackageName>3b4398922e0d4445adeaa81f968c271f.zip</PackageName>
+      <PackageName>7358a120c0d04a178028bc2e93798166.jpg</PackageName>
       <PackageSize>4592</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
@@ -158,7 +158,7 @@
       <FileSize>246784</FileSize>
       <Version>2018.11.26.710</Version>
       <PackageHash>23B5E0011D180B8CA262EE510F8DCB8C</PackageHash>
-      <PackageName>9020e53dc1fb482bb1c6bb8eb5cd6632.zip</PackageName>
+      <PackageName>cd8561e88d044eef8279be2193c7b67c.jpg</PackageName>
       <PackageSize>89275</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
@@ -172,7 +172,7 @@
       <FileSize>387072</FileSize>
       <Version>4.3.0.0</Version>
       <PackageHash>7EE6F37AC46569D5BE3294E283A22225</PackageHash>
-      <PackageName>670d709858a4425bae24189b573b7431.zip</PackageName>
+      <PackageName>f0efb39873ff4f28b6a2acf3a84a72be.jpg</PackageName>
       <PackageSize>149096</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
@@ -186,7 +186,7 @@
       <FileSize>148480</FileSize>
       <Version>2018.11.26.710</Version>
       <PackageHash>96B5AEB05C811A913C654FF5C0BA1D43</PackageHash>
-      <PackageName>d2c35501abb14640b9b41e997ca4c9e6.zip</PackageName>
+      <PackageName>3d676174a5d74ee181fa37165dc5680c.jpg</PackageName>
       <PackageSize>65293</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
@@ -199,8 +199,8 @@
       <FilePath>en\SimpleUpdater.resources.dll</FilePath>
       <FileSize>70656</FileSize>
       <Version>4.3.0.0</Version>
-      <PackageHash>FC92CCA170EAC2BE924404CC6EB6624D</PackageHash>
-      <PackageName>3098d960bc074f3b9180e08dfbb635b1.zip</PackageName>
+      <PackageHash>601CB34CBF34ACF18B1436613B596007</PackageHash>
+      <PackageName>a0f560e65865453dabaefc6ef2ff11f2.jpg</PackageName>
       <PackageSize>23905</PackageSize>
       <Method>VersionCompare</Method>
       <VerificationLevel>Size Hash</VerificationLevel>
